@@ -1,0 +1,35 @@
+.title{
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    text-decoration-skip-ink: none;
+}
+
+.words{
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+}
+
+.user_inputs{
+    text-align: center;
+}
+
+.style{
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+}
+
+.center_ph{
+    text-align: center;
+    color: red;
+}
+
+.center_ph::placeholder{
+    color: red;
+    opacity: 0.8;
+}
+
+.center_ph2{
+    text-align: center;
+}

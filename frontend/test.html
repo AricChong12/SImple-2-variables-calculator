@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content="width=device-width", initial-scale=1.0>
+        <title>Cal24Fun</title>
+        <link rel="icon" type="assets/x-icon" href='../assets/favicon.ico'>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="title">Simple 2-Variables Calculator</h1>
+        <p class="words">--Presented by Aric12, all rights reserved--</p>
+        <h1 class="words">Perform your calculation</h1>
+        
+        
+        <form class="user_inputs" method="POST">
+            <!--Num1-->
+            <label for="num1" class="style">Num 1 :</label><br/>
+            <input type="text" id="num1" name="num1" placeholder="Enter your first num" class="center_ph"><br/><br/>
+
+            <!--Num2-->
+            <label for="num2" class="style">Num 2 :</label><br/>
+            <input type="text" id="num2" name="num2" placeholder="Enter your second num" class="center_ph"><br/><br/>
+
+            <!--Answer-->
+            <label for="ans" class="style">Answer :</label><br/>
+            <input id="ans" name="ans" value="{{result}}" class="center_ph2" disabled><br/><br/><br/>
+
+            <!--Mathematical Ops-->
+            <input type="submit" name="operation" value="add">
+            <input type="submit" name="operation" value="substract">
+            <input type="submit" name="operation" value="multiply">
+            <input type="submit" name="operation" value="divide">
+
+        </form>
+
+    </body>
+</html>
